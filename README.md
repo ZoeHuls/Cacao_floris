@@ -1,2 +1,6 @@
 # Cacao_floris
-Cacao_floris
+Sorry alle file zijn hele erg chaos hier is een kleine beschrijving
+
+Veel van de variable zijn eerst gemaakt in verschillende codingfiles en later pas de outliers verwijderd en regressie analyse gemaakt in main_working_space_for_regression.py. De data files van 2024 zijn met dezelfde coding files tot variablen gemaakt als de datafile van 2025. Alleen de headings, de namen van de columns van de originele data verschilt dus voor elke coding file moet eerst de heading van het juiste jaartal worden "aangezet". "Heading" is de namen van 2024, "heading_2025" is van 2025 dataset. De outliers van de data van 2025 worden eerst nog apart verwijderd in removing_outliers_from_2025_data.py en daarna pas later gemergd met de data van 2024 in main_working_space_for_regression.py. 
+
+In main_working_space_for_regression.py word eerst elke data set geload en daarna tot 4 aparte datasets gemaakt waarbij die steeds apart in een loop de outliers worden verwijderd. Daarna zijn er nog een paar conditions per land, en dan daarna worden de vier datasets weer bij elkaar gemergd en daarna ook gemergd met de data van 2025 die is gemaakt in file removing_outliers_from_2025_data.py. Daarna worden regressie analysies gemaakt en verschillende grafieken. 
